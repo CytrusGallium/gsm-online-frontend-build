@@ -6,5 +6,5 @@
 [[redirects]]
   from = "http://reaknotron.freemyip.com:4000/*"
   to = "https://reaknotron.freemyip.com:4000/:splat"
-  status = 301
+  status = 200
   force = true
