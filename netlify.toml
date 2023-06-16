@@ -2,3 +2,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://reaknotron.freemyip.com:4000/api/:splat"
+  status = 200
