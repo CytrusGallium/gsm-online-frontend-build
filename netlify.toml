@@ -4,6 +4,7 @@
   status = 200
 
 [[redirects]]
-  from = "*/api/*"
-  to = "http://reaknotron.freemyip.com:4000/api/:splat"
-  status = 200
+  from = "http://reaknotron.freemyip.com:4000/*"
+  to = "https://reaknotron.freemyip.com:4000/:splat"
+  status = 301
+  force = true
